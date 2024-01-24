@@ -12,20 +12,6 @@
 </header>
 <!-- header section ends-->
 <br />
-<!-- <div class="container">
-  <div class="row">
-    <div class="col">
-     upload image code 
-      <h1>List of Uploaded Files.</h1>
-      <ul>
-          {% for file in files %}
-              <li><a href="{{ file.file.url }}" target="_blank">{{ file.file.name }}</a></li>
-          {% endfor %}
-      </ul>
-    </div>
-    </div>
-  </div>
-</div>  -->
 <br>
 <!-- for table display -->
 <div class="container" style="border: double;">
@@ -61,31 +47,5 @@
 </div>
 <br>
 <br>
-<!-- for table display -->
-<!-- {% for file in files %}
-<div class="card" style="width: 18rem; border: double;">
-  <img src="{{ file.file.url }}" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">{{ file.file.name }}</p>
-  </div>
-</div> 
-<br>
-{% endfor %}
-<br>-->
-<!-- 
-<div class="row">
-  {% for file in files %}
-    <div class="col-md-4" style=" margin-left: 30px;">
-      <div class="mx-auto" style="width: 200px;" >
-        <a href="{{ file.file.url }}">
-          <img src="{{ file.file.url }}" alt="Lights" style="width:100%; float: left;;">
-          <div class="caption">
-            <p>{{ file.title }}</p>
-          </div>
-        </a>
-      </div>
-    </div>
-    {% endfor %}
-  </div> -->
 <br>
 {% endblock %}

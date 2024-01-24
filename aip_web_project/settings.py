@@ -131,36 +131,3 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-# LOGGING_DIR = os.path.join(BASE_DIR, 'logs')  # Directory to store logs
-# if not os.path.exists(LOGGING_DIR):
-#     os.makedirs(LOGGING_DIR)
-# LOGGING_DIR = os.path.join(BASE_DIR, 'logs')
-# if not os.path.exists(LOGGING_DIR):
-#     os.makedirs(LOGGING_DIR)
-
-# LOGGING = {
-#     'version': 1,
-#     'disable_existing_loggers': False,
-#     'handlers': {
-#         'custom_file': {
-#             'level': 'DEBUG',
-#             'class': 'logging.FileHandler',
-#             'filename': os.path.join(LOGGING_DIR, 'custom.log'),
-#             'formatter': 'custom_format',
-#         },
-#     },
-#     'formatters': {
-#         'custom_format': {
-#             'format': '{levelname} {asctime} {message}',
-#             'style': '{',
-#         },
-#     },
-#     'loggers': {
-#         'custom_logger': {
-#             'handlers': ['custom_file'],
-#             'level': 'DEBUG',
-#             'propagate': False,
-#         },
-#     },
-# }

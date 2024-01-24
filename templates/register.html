@@ -16,37 +16,8 @@
   <br>
   <form method='POST' action="{% url 'register' %}">
     {% csrf_token %}
-
     {{ form.as_p }}
-    <br/>
-<!--   
-    <div class="form-group">
-
-      <input type="text" class="form-control" id="UserName" aria-describedby="emailHelp"
-        placeholder="Enter User ID">
-     
-    </div>
-    <br>
-    <div class="form-group">
-
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" 
-      placeholder="Enter email">
-
-    </div>
-    <br>
-    <div class="form-group">
-
-      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-    </div>
-    <br>
-    <div class="form-group">
-
-      <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirm Password">
-    </div> 
-  -->
- 
-    
-    
+    <br/>    
     <br>
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
     <button type="submit" class="btn btn-secondary">Register</button>  

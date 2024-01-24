@@ -17,9 +17,12 @@ urlpatterns = [
    # path('upload_file/', views.upload_file, name='upload_file'),
     path('show_files/', views.show_files, name='show_files'),
     path('classification_prediction/', views.classification_prediction, name='classification_prediction'),
+    path('invoice_classification/', views.invoice_classification,name='invoice_classification'),
     path('verify_predictions/', views.verify_predictions, name='verify_predictions'),
     path('text_extraction_page/', views.text_extraction_page, name='text_extraction_page'),
     path('text_show_files/',views.text_show_files,name='text_show_files'),
+    path('invoice_text_extraction/',views.invoice_text_extraction,name='invoice_text_extraction'),
+    path('classification_text_extraction/',views.classification_text_extraction,name='classification_text_extraction'),
 
 ]
 
